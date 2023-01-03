@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="Choice_box" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bank_system_fx.Bank_Controller">
+   <children>
+      <Label layoutX="13.0" layoutY="247.0" prefHeight="18.0" prefWidth="82.0" text="Password" />
+      <Label layoutX="27.0" layoutY="200.0" />
+      <Label layoutX="13.0" layoutY="200.0" text="Username" />
+      <Button fx:id="Login1" layoutX="146.0" layoutY="281.0" mnemonicParsing="false" onAction="#Logging" text="Login" />
+      <Label layoutX="187.0" layoutY="25.0" prefHeight="18.0" prefWidth="209.0" text="Welcome to SafeBank banking services " textFill="#56c913">
+         <font>
+            <Font name="Bodoni MT" size="12.0" />
+         </font></Label>
+      <Label layoutX="181.0" layoutY="66.0" prefHeight="18.0" prefWidth="238.0" text="Please login to Access our services" />
+      <Label layoutX="398.0" layoutY="250.0" text="New here?" />
+      <Button fx:id="SignupB" layoutX="403.0" layoutY="281.0" mnemonicParsing="false" onAction="#cust_Signup" text="Sign Up" />
+      <Label layoutX="95.0" layoutY="168.0" text="Enter Customer details below" textFill="#ff1500">
+         <font>
+            <Font name="Bodoni MT" size="12.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textfield1" layoutX="81.0" layoutY="189.0" prefHeight="0.0" prefWidth="200.0" />
+      <TextArea fx:id="passwordfield1" layoutX="81.0" layoutY="239.0" prefHeight="0.0" prefWidth="200.0" />
+      <Label fx:id="incorrect_info" layoutX="81.0" layoutY="323.0" prefHeight="80.0" prefWidth="250.0" textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

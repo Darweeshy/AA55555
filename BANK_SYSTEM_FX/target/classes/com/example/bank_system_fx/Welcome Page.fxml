@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bank_system_fx.Welcome_page_Controller">
+   <children>
+      <Label layoutX="115.0" layoutY="37.0" text="Welcome to SafeBank Services" textAlignment="CENTER" textFill="#13ae5b" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="91.0" prefHeight="18.0" prefWidth="450.0" text="Your backbone of your finances">
+         <font>
+            <Font name="Bodoni MT Italic" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="48.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Digital-Customer-Journey-Bankcustomers.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="353.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../depositphotos_108378578-stock-photo-bank-employee-working.jpg" />
+         </image></ImageView>
+      <Label layoutX="134.0" layoutY="173.0" />
+      <Label layoutX="202.0" layoutY="155.0" text="Please select from the options below" textFill="#8ab115" />
+      <Button fx:id="Cust" layoutX="100.0" layoutY="340.0" mnemonicParsing="false" onAction="#cust_Login" text="Customer" textFill="#b46f6f" />
+      <Button fx:id="EMP" layoutX="437.0" layoutY="340.0" mnemonicParsing="false" onAction="#Emp1_Login" text="Employee" textFill="#b46f6f" />
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</AnchorPane>

@@ -1,0 +1,5 @@
+Account{accnumber=0, acctype='null', credit=0, debt=0, validity='Valid', LoanAmount=1000, address='asjasdj', sourceofincome=1920
+alidarwish@gmail.com123
+, Name='
+Ali
+, ID=1920, DOB='24/07/2001', employment='student'}
